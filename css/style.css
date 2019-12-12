@@ -6,6 +6,7 @@
 
 body {
   background-color: black;
+  font-family: 'Roboto', sans-serif;
 }
 * {
   margin: 0;
@@ -14,13 +15,22 @@ body {
 }
 
 /*general feature*/
+}
 .padding_20{
   padding: 20px;
 }
 .display_block{
   display:inline-block;
 }
-
+.color_grey{
+  color: #bfb9b9;
+}
+.margin_top_90{
+  margin-top: 90px;
+}
+.font_bold{
+  font-weight: bold;
+}
 .wrapper {
   width: 100%;
   height: 100vh;
@@ -52,9 +62,7 @@ body {
   flex-grow: 2;
   background-color: lime;
 }
-.playlist {
 
-}
 .main-nav-footer {
   background-color: brown;
 }
@@ -89,6 +97,16 @@ body {
   width: 100%;
   height: 90px;
   background-color: pink;
+}
+.list_item_main{
+  position: relative;
+}
+.line_green::after{
+  content: "____";
+  display: table;
+  clear: both;
+  position: absolute;
+  color:green;
 }
 
 .container_recently-played{
@@ -128,8 +146,20 @@ body {
   align-items: flex-start;
   margin: 20px;
 }
-
 .suggested{
+  flex-basis: calc( (100% - 320px) / 6);
+  background-color: green;
+  margin-left: 10px;
+  margin-right: 45px;
+}
+.container_popular{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: flex-start;
+  margin: 20px;
+}
+.popular{
   flex-basis: calc( (100% - 320px) / 6);
   background-color: green;
   margin-left: 10px;
