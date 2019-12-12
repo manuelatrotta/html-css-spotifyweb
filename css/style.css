@@ -102,6 +102,20 @@ body {
   flex-wrap: wrap;
 }
 .album{
+  display: flex;
   flex-basis: calc( (100% - 320px) / 6);
   background-color: red;
+}
+@media screen and (max-widht: 992px) {
+  .container_recently-played{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container_recently-played{
+    flex-wrap: wrap;
+  }
+  .album{
+    flex-basis: calc( (100% - 320px) / 2);
+  }
 }
