@@ -97,12 +97,11 @@ body {
 .container_recently-played{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   overflow: hidden;
   flex-wrap: wrap;
 }
 .album{
-  width: 100px;
-  height: 100px;
+  flex-basis: calc( (100% - 320px) / 6);
   background-color: red;
 }
