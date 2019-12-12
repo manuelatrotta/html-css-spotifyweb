@@ -7,21 +7,18 @@
 body {
   background-color: black;
 }
-/*general feature*/
-.padding_20{
-  padding: 20px;
-}
-.display_block{
-  display:inline-block;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  background-color: black;
+/*general feature*/
+.padding_20{
+  padding: 20px;
+}
+.display_block{
+  display:inline-block;
 }
 
 .wrapper {
@@ -99,6 +96,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   overflow: hidden;
+  flex-wrap: wrap;
 }
 .album{
   flex-basis: calc( (100% - 320px) / 6);
@@ -122,4 +120,18 @@ body {
     flex-basis: calc(100% / 2);
     padding: 10px;
   }
+}
+.container_suggested{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.suggested{
+  flex-basis: calc( (100% - 320px) / 6);
+  background-color: green;
+  margin-left: 10px;
+  margin-right: 45px;
 }
