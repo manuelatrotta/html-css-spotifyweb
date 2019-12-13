@@ -22,8 +22,17 @@ body {
 .display_block{
   display:inline-block;
 }
+.display_inline_block{
+  display: inline-block;
+}
 .color_grey{
   color: #bfb9b9;
+}
+.list_style_none{
+  list-style: none;
+}
+.margin_right_10{
+  margin-right:10px;
 }
 .margin_top_90{
   margin-top: 90px;
@@ -48,6 +57,10 @@ body {
 }
 .img_album{
   width: 100%;
+}
+.img_album:hover{
+  background-color:rgba(0,0,0,.7);
+
 }
 /* Flex */
 .main {
