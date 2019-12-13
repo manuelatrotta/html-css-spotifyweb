@@ -62,16 +62,6 @@ body {
   text-transform: capitalize;
 }
 
-.layover{
-  position: relative;
-  width: 100%;
-  background-color: rgba( 0, 0, 0, 0.5);
-}
-
-.img_album{
-  width: 100%;
-}
-
 /* Flex */
 .main {
   display: flex;
@@ -172,6 +162,9 @@ body {
   height: 100px;
   margin-bottom: 20px;
 }
+.img_album{
+  width: 100%;
+}
 .layover{
   position: absolute;
   top: 0;
@@ -182,7 +175,10 @@ body {
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
-  /*display: none;*/
+  display: none;
+ }
+ .box_image:hover .layover{
+  display: block;
  }
  .box_image i {
   position: absolute;
