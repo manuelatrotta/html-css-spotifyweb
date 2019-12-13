@@ -111,16 +111,7 @@ body {
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-/*.btn {
-  display: inline-block;
-  border: 2px solid white;
-  border-radius:5px;
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 20px;
-  width: 200px;
-}*/
+
 #btn_trasparent{
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -204,20 +195,26 @@ body {
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .container_recently-played{
     flex-wrap: wrap;
+    width: 100%;
   }
   .album{
     flex-basis: calc(100% / 4);
-    padding: 10px;
+  }
+  .most_popular{
+    width: 100%;
+  }
+  .popular{
+    width: 100%;
   }
 }
-}
+
 @media screen and (max-width: 768px) {
   .container_recently-played{
     flex-wrap: wrap;
+    width: 100%;
   }
   .album{
     flex-basis: calc(100% / 2);
-    padding: 10px;
   }
 }
 .container_suggested{
