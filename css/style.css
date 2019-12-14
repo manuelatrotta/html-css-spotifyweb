@@ -3,33 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*body*/
 body {
   background-color: black;
   font-family: 'Roboto', sans-serif;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 /*general feature*/
 }
+/*size*/
 .size_50px{
   width: 50px;
+}
+.width_20{
+  width: 20px;
 }
 .padding_20{
   padding: 20px;
 }
+/*display*/
 .display_block{
   display:inline-block;
 }
 .display_inline_block{
   display: inline-block;
 }
+/*font*/
 .color_grey{
   color: #bfb9b9;
+}
+.font_bold{
+  font-weight: bold;
 }
 .list_style_none{
   list-style: none;
@@ -37,6 +41,7 @@ body {
 .text_decoration_none{
   text-decoration: none;
 }
+/*margin*/
 .margin_right_10{
   margin-right:10px;
 }
@@ -46,18 +51,7 @@ body {
 .margin_top_90{
   margin-top: 90px;
 }
-.font_bold{
-  font-weight: bold;
-}
-.width_20{
-  width: 20px;
-}
 
-.wrapper {
-  width: 100%;
-  height: 100vh;
-  background-color: red;
-}
 /*equal elements*/
 .h2_page{
   color: #fff;
@@ -68,7 +62,12 @@ body {
   font-weight: 400;
   text-transform: capitalize;
 }
-
+/*wrapper*/
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
 /* Flex */
 .main {
   display: flex;
@@ -94,7 +93,46 @@ body {
   flex-grow: 2;
   background-color: black;
 }
-
+/*logospotifylg*/
+.logo{
+  width: 50%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+/*logospotifyxs*/
+.logo-small{
+  width: 20%;
+  padding-bottom: 40px;
+}
+.list_items{
+  display: block;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  line-height: 20px;
+  list-style: none;
+  color: #bfb9b9;
+  font-size: 16px;
+}
+.list_items li:hover{
+  color: white;
+}
+.list_items a:hover{
+  color: white;
+  text-decoration: none;
+}
+.border_left:active{
+  border-left: 2px solid green;
+}
+/*media md xs*/
+@media screen and (max-width: 768px) {
+  .main-content{
+    width: 100%;
+  }
+  .main-nav{
+    text-align: center;
+    width: 20%;
+  }
+}
 .main-nav-footer {
   background-color: black;
 }
@@ -118,20 +156,13 @@ body {
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
+/*btn upgrade*/
 #btn_trasparent{
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 10px;
   color: #fff;
   margin-right: 30px;
-}
-
-/* footer */
-.footer {
-  width: 100%;
-  height: 90px;
-  background-color: pink;
 }
 .list_item_main{
   position: relative;
@@ -152,7 +183,7 @@ body {
   color: #fff;
   text-decoration: none;
 }
-
+/*section recently played*/
 .container_recently-played{
   display: flex;
   flex-direction: row;
@@ -198,7 +229,7 @@ body {
   flex-basis: calc( (100% - 320px) / 6);
   background-color: #423d3d;
 }
-
+/*media xs md*/
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   .container_recently-played{
     flex-wrap: wrap;
@@ -235,6 +266,7 @@ body {
     flex-basis: 100%;
   }
 }
+/*section suggested*/
 .container_suggested{
   display: flex;
   flex-direction: row;
@@ -248,6 +280,7 @@ body {
   margin-left: 10px;
   margin-right: 45px;
 }
+/*section popular*/
 .container_popular{
   display: flex;
   flex-direction: row;
@@ -261,40 +294,9 @@ body {
   margin-left: 10px;
   margin-right: 45px;
 }
-.logo{
-  width: 50%;
-  padding-left: 20px;
-  padding-bottom: 10px;
-}
-.list_items{
-  display: block;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  line-height: 20px;
-  list-style: none;
-  color: #bfb9b9;
-  font-size: 16px;
-}
-.list_items li:hover{
-  color: white;
-}
-.list_items a:hover{
-  color: white;
-  text-decoration: none;
-}
-.border_left:active{
-  border-left: 2px solid green;
-}
-.logo-small{
-  width: 20%;
-  padding-bottom: 40px;
-}
-@media screen and (max-width: 768px) {
-  .main-content{
-    width: 100%;
-  }
-  .main-nav{
-    text-align: center;
-    width: 20%;
-  }
+/* footer */
+.footer {
+  width: 100%;
+  height: 90px;
+  background-color: pink;
 }
