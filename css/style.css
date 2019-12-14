@@ -79,20 +79,20 @@ body {
   justify-content: space-between;
   width: 320px;
   height: 100%;
-  background: blue;
+  background: black;
 }
 .main-nav-header {
-  background-color: purple;
+  background-color: black;
 }
 .main-nav-main {
   min-height: 150px;
   overflow-y: auto;
   flex-grow: 2;
-  background-color: lime;
+  background-color: black;
 }
 
 .main-nav-footer {
-  background-color: brown;
+  background-color: black;
 }
 
 /* main content */
@@ -254,5 +254,25 @@ body {
 }
 .logo{
   width: 50%;
-  margin-left: 30px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.list_items{
+  display: block;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  line-height: 22px;
+  list-style: none;
+  color: #bfb9b9;
+  font-size: 16px;
+}
+.list_items li:hover{
+  color: white;
+}
+.list_items a:hover{
+  color: white;
+  text-decoration: none;
+}
+.border_left:active{
+  border-left: 2px solid green;
 }
