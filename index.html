@@ -21,17 +21,18 @@
         <section class="main-nav ">
           <section class="main-nav-header">
             <ul class="list_utility list_items">
-              <li> <a href="#"> <img class="logo"src="img/logo.svg" alt="spotify"> </a> </li>
-              <li class="border_left"> <i class="fas fa-home"></i> Home </li>
-              <li class="border_left"> <i class="fas fa-search"></i>Cerca</li>
-              <li class="border_left"> <i class="fas fa-grip-lines-vertical"></i>La tua libreria</li>
+              <li> <a href="#" class="hidden-xs"> <img class="logo"src="img/logo.svg" alt="spotify"> </a> </li>
+                <li> <a href="#" class="visible-xs"> <img class="logo-small"src="img/logo-small.svg" alt="spotify"> </a> </li>
+              <li class="border_left"> <i class="fas fa-home"></i><span class="hidden-xs"> Home</span></li>
+              <li class="border_left"> <i class="fas fa-search"></i><span class="hidden-xs"> cerca</span></li>
+              <li class="border_left"> <i class="fas fa-grip-lines-vertical"></i><span class="hidden-xs">la tua libreria</span></li>
             </ul>
           </section>
-          <section class="your_playlist list_items ">
-            <h4>PLAYLIST</h4>
-            <a class="color_grey" href="create" class="text_decoration_none"><i class="fas fa-plus-square"></i>Crea playlist</a>
+          <section class="your_playlist list_items">
+            <h4 class="hidden-xs">PLAYLIST</h4>
+            <a class="color_grey" href="create" class="text_decoration_none"><i class="fas fa-plus-square"></i><span class="hidden-xs"> la tua playlist</span></a>
           </section>
-          <section class="main-nav-main">
+          <section class="main-nav-main hidden-xs">
             <ul class="playlist list_items text-capitalize">
               <li>crea playlist</li>
               <li>crea playlist</li>
@@ -43,9 +44,9 @@
           </section>
           <section class="main-nav-footer">
             <div class="main-nav-footer-profile list_items ">
-              <p><a class="color_grey" href="#"><i class="fas fa-arrow-circle-down"></i>installa app</p></a>
-              <hr class="font_50px">
-              <p><i class="fas fa-user-circle"></i>John Doe</p>
+              <p><a class="color_grey" href="#"><i class="fas fa-arrow-circle-down"></i><span class="hidden-xs">installa app </span></p></a>
+              <hr class="hidden-xs">
+              <p><i class="fas fa-user-circle"></i><span class="hidden-xs">John doe</span></p>
             </div>
           </section>
         </section>
