@@ -103,7 +103,7 @@ body {
 .main-content {
   width: calc(100% - 320px);
   height: 100%;
-  background-color: orange;
+  background-color: #423d3d;
   overflow-y: scroll;
 }
 .call-to-action {
@@ -196,10 +196,10 @@ body {
 .album{
   overflow:hidden;
   flex-basis: calc( (100% - 320px) / 6);
-  background-color: red;
+  background-color: #423d3d;
 }
 
-@media screen and (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 1200px) and (min-width: 768px) {
   .container_recently-played{
     flex-wrap: wrap;
     width: 100%;
@@ -207,11 +207,14 @@ body {
   .album{
     flex-basis: calc(100% / 4);
   }
-  .suggested{
-    flex-basis: 100%;
-  }
   .box_image{
     flex-basis: 100%;
+  }
+  .container_suggested{
+    width: 100%;
+  }
+  .suggested{
+    flex-basis: calc(100% / 4);
   }
 }
 
@@ -220,12 +223,14 @@ body {
     flex-wrap: wrap;
     width: 100%;
   }
+  .container_suggested{
+    flex-wrap: wrap;
+    width: 100%;
+  }
   .album{
     flex-basis: calc(100% / 2);
   }
-  .suggested{
-    flex-basis: 100%;
-  }
+
   .box_image{
     flex-basis: 100%;
   }
@@ -239,7 +244,7 @@ body {
 }
 .suggested{
   flex-basis: calc( (100% - 320px) / 6);
-  background-color: green;
+  background-color: #423d3d;
   margin-left: 10px;
   margin-right: 45px;
 }
@@ -252,7 +257,7 @@ body {
 }
 .popular{
   flex-basis: calc( (100% - 320px) / 6);
-  background-color: green;
+  background-color: #423d3d;
   margin-left: 10px;
   margin-right: 45px;
 }
