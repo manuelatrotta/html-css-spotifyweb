@@ -314,13 +314,11 @@ body {
   display: flex;
   justify-content:space-around;
   align-items: center;
-  background-color: #504741;
 }
 /*player_footer*/
 .player_footer {
   display: flex;
   align-items: center;
-  background-color: #504741;
 }
 .player_footer{
   display: flex;
