@@ -306,6 +306,7 @@ body {
   background-color: #504741;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* album_play */
