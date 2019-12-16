@@ -376,7 +376,7 @@ body {
   padding: 3px;
 }
 .list-inline li:hover i{
-  transform: scale(1);
+  transform: scale(1.5);
 }
 /*volume*/
 .volume {
