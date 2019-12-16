@@ -69,7 +69,6 @@ body {
 .wrapper {
   width: 100%;
   height: 100vh;
-  background-color: red;
 }
 /* Flex */
 .main {
@@ -307,6 +306,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  overflow-y: hidden;
 }
 
 /* album_play */
