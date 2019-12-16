@@ -264,8 +264,9 @@ body {
   .album{
     flex-basis: calc(100% / 2);
   }
-
-  .box_image{
+}
+@media screen and (max-width: 768px) {
+  .create-for-you{
     flex-basis: 100%;
   }
 }
@@ -306,9 +307,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-.container_footer_play{
-  flex-basis: calc( 100% / 3);
-}
+
 /* album_play */
 .album_play {
   display: flex;
@@ -327,6 +326,7 @@ body {
 .bar_player{
   display: flex;
   flex-direction: row;
+  width: 350px;
 }
 /*line_play*/
 .line_play {
